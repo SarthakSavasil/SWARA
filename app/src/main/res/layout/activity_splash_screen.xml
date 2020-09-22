@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swara"
+        android:textSize="50sp"
+        android:textColor="#7EC0EE"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/swara"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Dark Theme Music App"
+        android:textSize="15sp"
+        android:textColor="#7EC0EE"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/swara"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By :"
+        android:textSize="30sp"
+        android:textColor="#7EC0EE"
+        android:fontFamily="cursive"
+        android:layout_above="@+id/sarthak"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarthak Gupta"
+        android:textSize="20sp"
+        android:id="@+id/sarthak"
+        android:textColor="#7EC0EE"
+        android:fontFamily="cursive"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
